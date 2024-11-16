@@ -1,8 +1,8 @@
-import logo from "./logo.svg"
-import "./App.css"
-import React from "react"
-import StudentList from "./components/StudentList"
-import Alert from "./components/Alert"
+import logo from "./logo.svg";
+import "./App.css";
+import React from "react";
+import StudentList from "./components/StudentList";
+import Alert from "./components/Alert";
 
 const studentList = [
 	{
@@ -17,7 +17,7 @@ const studentList = [
 		age: 20,
 		address: "Hà Nội",
 	},
-]
+];
 
 function App() {
 	return (
@@ -25,7 +25,7 @@ function App() {
 			<Alert />
 			<StudentList list={studentList} />
 		</>
-	)
+	);
 }
 
-export default App
+export default App;
